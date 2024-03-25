@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 import "./Contact.css";
-import Pic from "../../img/Pic.avif";
-import Github from "../../img/github.png";
+
+import Github from "@iconscout/react-unicons/icons/uil-github";
 import GmailIcon from "@iconscout/react-unicons/icons/uil-envelope-alt";
 import User from "@iconscout/react-unicons/icons/uil-user";
 import LinkedIn from "../../img/linkedin.png";
-import Instagram from "../../img/instagram.png";
+import Twitter from "@iconscout/react-unicons/icons/uil-twitter";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 const Works = () => {
@@ -53,9 +53,9 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <a href="https://github.com/tusharawat01" target="_blank" rel="noopener noreferrer">
-              <img src={Github} alt="GitHub" />
-            </a>
+          <a href="https://github.com/tusharawat01" target="_blank" rel="noopener noreferrer">
+            <Github color="orange" size={"7rem"} />
+          </a>
           </div>
           <div className="w-secCircle">
             <a href="https://www.linkedin.com/in/tushar-rawat-07471916a" target="_blank" rel="noopener noreferrer">
@@ -66,9 +66,9 @@ const Works = () => {
           <User size="4rem" color="blue" />
           </div>
           <div className="w-secCircle">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <img src={Instagram} alt="Instagram" />
-            </a>
+          <a href="#">
+            <Twitter color="orange" size={"5.5rem"} />
+          </a>
           </div>
           <div className="w-secCircle">
             <a className ="gmail" href="mailto:tushar7314tr@gmail.com" target="_blank" rel="noopener noreferrer">

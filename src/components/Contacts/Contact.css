@@ -93,10 +93,7 @@
 .w-secCircle > a {
   transform: scale(0.5);
 }
-.w-secCircle > img {
-  transform: scale(0.15);
-  border-radius: 100%;
-}
+
 .w-secCircle .gmail {
   transform: scale(0.75);
   border-radius: 100%;
