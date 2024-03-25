@@ -84,7 +84,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: "none";
+  background: none;
   box-shadow: var(--smboxShadow);
   background: white;
 }
@@ -97,10 +97,11 @@
   transform: scale(0.15);
   border-radius: 100%;
 }
-.w-secCircle .gmail > img {
-  transform: scale(0.15);
- 
+.w-secCircle .gmail {
+  transform: scale(0.75);
+  border-radius: 100%;
 }
+
 
 .w-backCircle {
   position: absolute;
