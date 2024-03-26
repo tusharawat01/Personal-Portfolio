@@ -26,12 +26,9 @@ const Works = () => {
           <span>Social and Networking Platform</span>
           <span>
           This is the hub where you can explore my social networking platforms and reach out to me directly 
-            <br />
-            via Gmail. Simply click the "Hire Me" button below or the Gmail icon to get in touch. Whether you  
-            <br />
-            have questions, feedback, or simply want to say hello, I'm always eager to hear from you and engage 
-            <br />
-            in meaningful conversations.
+          via Gmail. Simply click the "Hire Me" button below or the Gmail icon to get in touch. Whether you  
+          have questions, feedback, or simply want to say hello, I'm always eager to hear from you and engage 
+          in meaningful conversations.
           </span>
           <a href="mailto:tushar7314tr@gmail.com" target="_blank">
             <button className="button s-button">Hire Me</button>

@@ -9,15 +9,15 @@
 /* heading */
 .portfolio span:nth-of-type(1) {
   color: var(--black);
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.portfolio span:nth-of-type(2) {
-  color: var(--orange);
   font-size: 2.5rem;
   font-weight: bold;
 }
+
+/* .portfolio span:nth-of-type(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+} */
 
 /* slider */
 .portfolio .swiper{
@@ -25,16 +25,39 @@
 }
 
 .portfolio-slider {
-  margin-top: 3rem;
+  margin-top: 2.5rem;
   width: 100%;
 }
 
 .portfolio-slider .swiper-slide {
   width: 20rem;
 }
+.portfolio-slider .swiper-slide h1 {
+  color: var(--orange);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 .portfolio img {
   width: 19rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }
 
+@media screen and (max-width: 480px) {
+  .portfolio-slider {
+    margin-top: 1rem;
+    width: 100%;
+  }
+  .portfolio img {
+    width: 15rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+  }
+  .portfolio-slider .swiper-slide h1 {
+    width:100vw;
+    color: var(--orange);
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}

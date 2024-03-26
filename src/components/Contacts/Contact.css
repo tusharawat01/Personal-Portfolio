@@ -8,6 +8,9 @@
   align-items: center;
 }
 /* left side */
+.w-left{
+  width:40vw;
+}
 .awesome {
   display: flex;
   flex-direction: column;
@@ -120,11 +123,15 @@
 }
 
 @media screen and (max-width: 480px) {
+
   .works {
     flex-direction: column;
     height: 55rem;
     padding: 0;
     gap: 5rem;
+  }
+  .w-left{
+    width:85vw;
   }
 
   .w-right {

@@ -28,8 +28,7 @@ const Services = () => {
         <span></span>
         <span>
         Familiar with MERN stack development, capable of building basic applications 
-          <br />
-          using MongoDB, Express.js, React.js, and Node.js.
+        using MongoDB, Express.js, React.js, and Node.js.
         </span>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>

@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
-import "./Portfolio.css";
+import "./Project.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
 import Blog from "../../img/Blog.png";
 import { themeContext } from "../../Context";
-const Portfolio = () => {
+const Project = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
@@ -30,4 +30,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Project;

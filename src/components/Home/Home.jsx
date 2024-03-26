@@ -30,7 +30,7 @@ const Intro = () => {
           <span>Tushar Rawat</span>
           <span>
             Web Developer with good skills in web designing
-            and development, producting the Quality work
+            and development, producing the Quality work.
           </span>
         </div>
         <a href="mailto:tushar7314tr@gmail.com" target="_blank">

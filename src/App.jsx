@@ -4,7 +4,7 @@ import Skills from "./components/Skills/Skills";
 import "./App.css";
 
 import Contacts from "./components/Contacts/Contact";
-import Portfolio from "./components/Portfolio/Portfolio";
+import Project from "./components/Projects/Project";
 import Footer from "./components/footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
@@ -23,7 +23,7 @@ function App() {
       <Home />
       <Skills />
       <Contacts />
-      <Portfolio />
+      <Project />
       <Footer />
     </div>
   );
