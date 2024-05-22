@@ -15,7 +15,7 @@ const Services = () => {
 
   // transition
   const transition = {
-    duration: 1,
+    duration: 2,
     type: "spring",
   };
 

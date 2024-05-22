@@ -25,10 +25,10 @@ const Works = () => {
           </span>
           <span>Social and Networking Platform</span>
           <span>
-          This is the hub where you can explore my social networking platforms and reach out to me directly 
-          via Gmail. Simply click the "Hire Me" button below or the Gmail icon to get in touch. Whether you  
-          have questions, feedback, or simply want to say hello, I'm always eager to hear from you and engage 
-          in meaningful conversations.
+            This is the hub where you can explore my social networking platforms and reach out to me directly
+            via Gmail. Simply click the "Hire Me" button below or the Gmail icon to get in touch. Whether you
+            have questions, feedback, or simply want to say hello, I'm always eager to hear from you and engage
+            in meaningful conversations.
           </span>
           <a href="mailto:tushar7314tr@gmail.com" target="_blank">
             <button className="button s-button">Hire Me</button>
@@ -50,9 +50,9 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-          <a href="https://github.com/tusharawat01" target="_blank" rel="noopener noreferrer">
-            <Github color="orange" size={"7rem"} />
-          </a>
+            <a href="https://github.com/tusharawat01" target="_blank" rel="noopener noreferrer">
+              <Github color="orange" size={"7rem"} />
+            </a>
           </div>
           <div className="w-secCircle">
             <a href="https://www.linkedin.com/in/tushar-rawat-07471916a" target="_blank" rel="noopener noreferrer">
@@ -60,16 +60,17 @@ const Works = () => {
             </a>
           </div>
           <div className="w-secCircle">
-          <User size="4rem" color="blue" />
+            <User size="4rem" color="blue" />
+          </div>
+
+          <div className="w-secCircle">
+            <a href="#">
+              <Twitter color="orange" size={"5.5rem"} />
+            </a>
           </div>
           <div className="w-secCircle">
-          <a href="#">
-            <Twitter color="orange" size={"5.5rem"} />
-          </a>
-          </div>
-          <div className="w-secCircle">
-            <a className ="gmail" href="mailto:tushar7314tr@gmail.com" target="_blank" rel="noopener noreferrer">
-            <GmailIcon size="4rem" color="orange" />
+            <a className="gmail" href="mailto:tushar7314tr@gmail.com" target="_blank" rel="noopener noreferrer">
+              <GmailIcon size="4rem" color="orange" />
             </a>
           </div>
         </motion.div>

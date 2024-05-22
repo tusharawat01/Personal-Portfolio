@@ -22,7 +22,9 @@ const Project = () => {
       >
         <SwiperSlide>
         <h1>Blog App</h1>
-          <a href="https://github.com/tusharawat01/BlogApp.git" target="_blank">  <img src={Blog} alt="" /></a>
+          <a href="https://github.com/tusharawat01/BlogApp.git" target="_blank">  
+          <img src={Blog} alt="" />
+          </a>
         
         </SwiperSlide>
       </Swiper>

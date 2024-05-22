@@ -1,9 +1,11 @@
+
 .portfolio {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  
 
 }
 /* heading */
@@ -45,6 +47,11 @@
 }
 
 @media screen and (max-width: 480px) {
+  /* .portfolio{
+    height: auto;
+    margin-top: -2rem;                //for making less gap between skills and project section
+    margin-bottom: 5rem;
+  } */
   .portfolio-slider {
     margin-top: 1rem;
     width: 100%;
