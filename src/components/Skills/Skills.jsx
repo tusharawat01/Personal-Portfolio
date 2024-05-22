@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from './CV.pdf';
 
 const Services = () => {
   // context
@@ -60,8 +60,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Frontend"}
-            detail={"HTML, CSS, React.js, Redux-Toolkit, Nodejs"}
+            heading={"Framework & libraries"}
+            detail={" React.js, Redux-Toolkit, Next.js, Express, Mongoose"}
           />
         </motion.div>
         {/* 3rd */}
@@ -72,9 +72,9 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"Backend"}
+            heading={"Database & Others"}
             detail={
-              "Nodejs, Express, MongoDB, MySQL"
+              "HTML, CSS, Nodejs, Postman, MongoDB, MySQL"
             }
             color="rgba(252, 166, 31, 0.45)"
           />

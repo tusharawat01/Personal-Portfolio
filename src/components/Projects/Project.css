@@ -68,3 +68,24 @@
     font-weight: bold;
   }
 }
+
+.portfolio-slider .swiper-slide .link{
+  margin-top: 1rem;
+  font-size: 1em;
+}
+
+.portfolio-slider .swiper-slide .link a{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--orange);
+  border-radius: 2rem;
+  color:white;
+  transition: 0.5s;
+  border: 2px solid var(--orange);
+  font-family: sans-serif;
+}
+
+.portfolio-slider .swiper-slide .link a:hover{
+  color: var(--orange);
+  background-color: white;
+}
