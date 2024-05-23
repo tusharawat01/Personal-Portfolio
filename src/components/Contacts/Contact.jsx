@@ -30,8 +30,8 @@ const Works = () => {
             have questions, feedback, or simply want to say hello, I'm always eager to hear from you and engage
             in meaningful conversations.
           </span>
-          <a href="mailto:tushar7314tr@gmail.com" target="_blank">
-            <button className="button s-button">Hire Me</button>
+          <a href="mailto:tushar7314tr@gmail.com" target="_blank" className="button s-button">
+            Hire Me
           </a>
           <div
             className="blur s-blur1"

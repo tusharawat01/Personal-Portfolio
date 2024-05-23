@@ -21,8 +21,23 @@
   gap: 2rem;
 }
 
+@media (min-width:1001px) and (max-width: 1200px){
+  .f-content{
+    transform: scale(.9);
+   
+  }
+}
+@media (min-width:481px) and (max-width: 1000px){
+  .f-content{
+    transform: scale(.8);
+    gap:3rem;
+   
+  }
+}
+
 @media screen and (max-width: 480px){
   .f-content{
-    transform: scale(.5);
+    transform: scale(.6);
+    gap:2.5rem
   }
 }

@@ -16,9 +16,9 @@ const Project = () => {
   const [slides, setSlides] = useState(1);
 
   const updateSlides = (width) => {
-    if (width >= 1050) {
+    if (width >= 1200) {
       return 3;
-    } else if (width >= 480) {
+    } else if (width >= 700) {
       return 2;
     } else {
       return 1;
@@ -35,7 +35,7 @@ const Project = () => {
     handleResize(); // Call initially to set the slides
 
     return () => window.removeEventListener("resize", handleResize);
-  }, []);
+  }, [width]);
 
   return (
     <div className="portfolio" id="portfolio">

@@ -33,8 +33,8 @@ const Intro = () => {
             and development, producing the Quality work.
           </span>
         </div>
-        <a href="mailto:tushar7314tr@gmail.com" target="_blank">
-            <button className="button s-button">Hire Me</button>
+        <a href="mailto:tushar7314tr@gmail.com" target="_blank" className="button" id="i-button">
+            Hire Me
           </a>
            {/* social icons */}
            <div className="i-icons">

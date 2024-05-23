@@ -30,11 +30,11 @@ const Services = () => {
         Familiar with MERN stack development, capable of building basic applications 
         using MongoDB, Express.js, React.js, and Node.js.
         </span>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+        <a href={Resume} download className="button s-button">
+          Download CV
         </a>
-        <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <button className="button s-button">View CV</button>
+        <a href={Resume} target="_blank" rel="noopener noreferrer" className="button s-button">
+            View CV
           </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
