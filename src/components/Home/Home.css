@@ -117,6 +117,11 @@
 
 
 @media (min-width: 901px) and (max-width: 1250px)  {
+  .Intro {
+    
+    height: 33rem;
+  }
+  
   .i-right> :nth-child(1) {
     transform: scale(0.73);
     left: -25%;
@@ -161,11 +166,10 @@
 }
 
 @media (min-width: 750px) and (max-width: 900px)  {
-  /* .Intro {
-    flex-direction: column;
-    gap: 7rem;
-    height: 64rem;
-  } */
+  .Intro {
+    
+    height: 33rem;
+  }
 
   .i-right> :nth-child(1) {
     left: -40%;

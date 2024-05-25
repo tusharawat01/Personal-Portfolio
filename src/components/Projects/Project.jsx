@@ -65,6 +65,9 @@ const Project = () => {
           <a href="https://github.com/tusharawat01/Backend.git" target="_blank" rel="noopener noreferrer">
             <img src={VideoTube} alt="VideoTube" />
           </a>
+          <div className="link">
+            <a href="https://app.eraser.io/workspace/C4gGp0VnPE75Etizh5cv?origin=share" target="_blank" rel="noopener noreferrer">Model Link</a>
+          </div>
         </SwiperSlide>
 
         <SwiperSlide>
