@@ -67,7 +67,10 @@ const Project = () => {
           </a>
           <div className="link">
             <a href="https://app.eraser.io/workspace/C4gGp0VnPE75Etizh5cv?origin=share" target="_blank" rel="noopener noreferrer">Model Link</a>
+          
+            <a href="https://www.postman.com/tushar-rawar/workspace/backend-videotube/collection/27980968-5c3500f1-f3dc-404e-9272-8cd7b6661f27?action=share&creator=27980968&active-environment=27980968-8c29a9a4-cdbb-4c5e-babe-e3db11c1dc73" target="_blank" rel="noopener noreferrer">Postman</a>
           </div>
+          
         </SwiperSlide>
 
         <SwiperSlide>

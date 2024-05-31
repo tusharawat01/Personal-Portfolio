@@ -62,6 +62,7 @@
   transition: 0.5s;
   border: 2px solid var(--orange);
   font-family: sans-serif;
+  margin-right: 2rem;
 }
 
 .portfolio-slider .swiper-slide .link a:hover{
@@ -153,8 +154,23 @@
 }
 
 }
+@media (min-height: 1300px) and (max-height:1400px) {
+  .portfolio{
+    margin-top: -26rem;                
+    margin-bottom: 10rem;
+  }
+  
+}
 
 @media (min-height: 701px) and (max-height:900px) {
+  .portfolio{
+    margin-top: -1rem;                
+    margin-bottom: 10rem;
+  }
+  
+}
+
+@media (min-height: 601px) and (max-height:700px) {
   .portfolio{
     margin-top: 2rem;                
     margin-bottom: 10rem;
@@ -162,10 +178,50 @@
   
 }
 
-@media (min-height: 400px) and (max-height:700px) {
+@media (min-height: 451px) and (max-height:600px) {
   .portfolio{
-    margin-top: 10rem;                
+    margin-top: 6rem;                
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-height: 401px) and (max-height:450px) {
+  .portfolio{
+    margin-top: 16rem;                
     margin-bottom: 10rem;
   }
   
 }
+@media (min-height: 376px) and (max-height:400px) {
+  .portfolio{
+    margin-top: 14rem;                
+    margin-bottom: 10rem;
+  }
+  
+}
+
+@media (min-height: 366px) and (max-height:375px) {
+  .portfolio{
+    margin-top: -10rem;                
+    margin-bottom: 10rem;
+  }
+  
+}
+
+@media (min-height: 301px) and (max-height:365px) {
+  .portfolio{
+    margin-top: 18rem;                
+    margin-bottom: 10rem;
+  }
+  
+}
+
+@media (min-height: 201px) and (max-height:300px) {
+  .portfolio{
+    margin-top: 18rem;                
+    margin-bottom: 10rem;
+  }
+  
+}
+
+
