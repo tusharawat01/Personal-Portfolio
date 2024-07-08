@@ -6,6 +6,7 @@ import Blog from "../../img/Blog.png";
 import VideoTube  from "../../img/VideoTube.jpg"
 import MusicAcademy from "../../img/MusicAcademy.png"
 import { themeContext } from "../../Context";
+import DronePilot from "../../img/DronePilot.png"
 
 
 const Project = () => {
@@ -71,6 +72,16 @@ const Project = () => {
             <a href="https://www.postman.com/tushar-rawar/workspace/backend-videotube/collection/27980968-5c3500f1-f3dc-404e-9272-8cd7b6661f27?action=share&creator=27980968&active-environment=27980968-8c29a9a4-cdbb-4c5e-babe-e3db11c1dc73" target="_blank" rel="noopener noreferrer">Postman</a>
           </div>
           
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h1>Drone Pilot Locator</h1>
+          <a href="https://github.com/tusharawat01/drone-pilot-locator.git" target="_blank" rel="noopener noreferrer">
+            <img src={DronePilot} alt="Drone Pilot Locator" />
+          </a>
+          <div className="link">
+            <a href="https://drone-pilot-map.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+          </div> 
         </SwiperSlide>
 
         <SwiperSlide>
