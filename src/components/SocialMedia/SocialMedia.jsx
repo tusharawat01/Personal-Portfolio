@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Contact.css";
+import "./SocialMedia.css";
 
 import Github from "@iconscout/react-unicons/icons/uil-github";
 import GmailIcon from "@iconscout/react-unicons/icons/uil-envelope-alt";

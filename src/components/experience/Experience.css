@@ -2,9 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
-    height: 30vh;
-    margin-bottom: 8rem;
+    gap: 6rem;
+    height: auto;
+    margin-bottom: 5rem;
     /* darkmode */
     color: var(--black);
   }

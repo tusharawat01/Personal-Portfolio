@@ -7,6 +7,9 @@ import VideoTube  from "../../img/VideoTube.jpg"
 import MusicAcademy from "../../img/MusicAcademy.png"
 import { themeContext } from "../../Context";
 import DronePilot from "../../img/DronePilot.png"
+import MapboxWithTerrain from "../../img/MapboxWithTerrain.png"
+import FileConvertor from "../../img/file-converted.png"
+import VideoCompression from "../../img/VideoCompression.png"
 
 
 const Project = () => {
@@ -75,12 +78,43 @@ const Project = () => {
         </SwiperSlide>
 
         <SwiperSlide>
+          <h1>Point Cloud Viewer</h1>
+          <a href="https://github.com/tusharawat01/Point-Cloud_Viewer.git" target="_blank" rel="noopener noreferrer">
+            <img src={FileConvertor} alt="Point Cloud Viewer" />
+          </a>
+          <div className="link">
+            <a href="https://point-cloud-viewer.vercel.app" target="_blank" rel="noopener noreferrer">Live Link</a>
+          </div> 
+        </SwiperSlide>
+
+
+        <SwiperSlide>
           <h1>Drone Pilot Locator</h1>
           <a href="https://github.com/tusharawat01/drone-pilot-locator.git" target="_blank" rel="noopener noreferrer">
             <img src={DronePilot} alt="Drone Pilot Locator" />
           </a>
           <div className="link">
             <a href="https://drone-pilot-map.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
+          </div> 
+        </SwiperSlide>
+        
+        <SwiperSlide>
+          <h1>Video Upload & Streaming</h1>
+          <a href="https://github.com/tusharawat01/VideoUploading-Streaming.git" target="_blank" rel="noopener noreferrer">
+            <img src={VideoCompression} alt="Video Upload & Streaming" />
+          </a>
+          <div className="link">
+            <a href="https://video-uploading-streaming.vercel.app" target="_blank" rel="noopener noreferrer">Live Link</a>
+          </div> 
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <h1>3D Map</h1>
+          <a href="https://github.com/tusharawat01/Mapbox-Terrain.git" target="_blank" rel="noopener noreferrer">
+            <img src={MapboxWithTerrain} alt="Mapbox with Terrain Style" />
+          </a>
+          <div className="link">
+            <a href="https://3d-model-viewer01.netlify.app/" target="_blank" rel="noopener noreferrer">Live Link</a>
           </div> 
         </SwiperSlide>
 

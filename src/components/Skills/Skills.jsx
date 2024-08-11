@@ -61,7 +61,7 @@ const Services = () => {
           <Card
             emoji={Glasses}
             heading={"Framework & libraries"}
-            detail={" React.js, Redux-Toolkit, Next.js, Express, Mongoose"}
+            detail={" React.js, Tailwind CSS, Next.js, Express, Mongoose"}
           />
         </motion.div>
         {/* 3rd */}
@@ -74,7 +74,7 @@ const Services = () => {
             emoji={Humble}
             heading={"Database & Others"}
             detail={
-              "HTML, CSS, Nodejs, Postman, MongoDB, MySQL"
+              "HTML, CSS, Docker, Nodejs, Postman, MongoDB, MySQL"
             }
             color="rgba(252, 166, 31, 0.45)"
           />
