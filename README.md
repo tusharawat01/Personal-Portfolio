@@ -24,6 +24,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 - **Skills:** List of technical and soft skills.
 - **Projects:** Selected projects with  links.
 - **Contact:** Contact and social media links.
+- **Experience** Learning, Working, Projects
 
 
 
