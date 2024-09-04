@@ -1,6 +1,9 @@
 import React, { useContext, useState, useEffect } from "react";
 import "./Project.css";
 import { Swiper, SwiperSlide } from "swiper/react"
+import { Navigation, Pagination } from "swiper/modules";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 import "swiper/css";
 import Blog from "../../img/Blog.png";
 import VideoTube  from "../../img/VideoTube.jpg"
@@ -53,6 +56,10 @@ const Project = () => {
         slidesPerView={slides}
         grabCursor={true}
         className="portfolio-slider"
+        // loop={true} // Enable infinite loop
+        pagination={{ clickable: true }} // Enable pagination if needed
+        navigation={true} // Enable navigation arrows if needed
+        modules={[Navigation, Pagination]}
       >
         <SwiperSlide>
           <h1>Blog App</h1>

@@ -70,6 +70,13 @@
   background-color: white;
 }
 
+
+/* Change the color of the active pagination bullet */
+.portfolio .swiper-pagination-bullet-active {
+  background-color: rgba(221, 95, 11, 0.977) !important; /* Apply your desired active bullet color */
+}
+
+
 @media (min-width:701px) and (max-width: 1200px) {
   .portfolio{
     height: auto;
