@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './Tushar_Rawat_Profile.pdf';
+import Resume from "./Tushar_Rawat_Profile.pdf";
 
 const Services = () => {
   // context
@@ -27,15 +27,21 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>SKILLS</span>
         <span></span>
         <span>
-        Familiar with MERN stack development, capable of building basic applications 
-        using MongoDB, Express.js, React.js, and Node.js.
+          Proficient in MERN stack development, with the ability to build
+          scalable applications using MongoDB, Express.js, React.js, and
+          Node.js.
         </span>
         <a href={Resume} download className="button s-button">
-          Download CV
+          Download Resume
         </a>
-        <a href={Resume} target="_blank" rel="noopener noreferrer" className="button s-button">
-            View CV
-          </a>
+        <a
+          href={Resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button s-button"
+        >
+          View Resume
+        </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -73,9 +79,7 @@ const Services = () => {
           <Card
             emoji={Humble}
             heading={"Database & Others"}
-            detail={
-              "HTML, CSS, Docker, Nodejs, Postman, MongoDB, MySQL"
-            }
+            detail={"Docker, Git, Nodejs, Postman, MongoDB, MySQL"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
