@@ -75,16 +75,11 @@
 }
 
 .w-mainCircle> :nth-child(3) {
-  left: 6rem;
-  top: 5rem;
-}
-
-.w-mainCircle> :nth-child(4) {
   left: 15rem;
   top: 5rem;
 }
 
-.w-mainCircle> :nth-child(5) {
+.w-mainCircle> :nth-child(4) {
   left: 6rem;
   top: 13rem;
 }
@@ -266,3 +261,5 @@
   }
 
 }
+
+

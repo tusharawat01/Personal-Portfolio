@@ -1,9 +1,11 @@
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
+import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import "./App.css";
 
 import SocialMedia from "./components/SocialMedia/SocialMedia";
+import Contact from "./components/contact/Contact";
 
 import Project from "./components/Projects/Project";
 import Footer from "./components/footer/Footer";
@@ -24,10 +26,12 @@ function App() {
     >
       <Navbar />
       <Home />
+      <About />
       <Skills />
-      <SocialMedia />
       <Experience />
       <Project />
+      <SocialMedia />
+      <Contact />
       <Footer />
     </div>
   );

@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: auto;
   margin-bottom: 4rem;
-  
+
 
 }
 /* heading */
@@ -41,11 +41,25 @@
   font-weight: bold;
 }
 
+.portfolio-slider .swiper-slide .p-desc {
+  color: var(--gray);
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  margin: 0.4rem 0 0.8rem;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 5.6rem;
+}
+
 .portfolio img {
   width: 19rem;
   height:12rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
+  margin-bottom: 0.5rem;
 }
 
 .portfolio-slider .swiper-slide .link{

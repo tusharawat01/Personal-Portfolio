@@ -30,7 +30,17 @@
     outline: none;
     border: 2px solid var(--orange);
     border-radius: 8px;
-    font-size: 16px;   
+    font-size: 16px;
+}
+
+.c-right input[type="submit"] {
+    width: 9rem;
+    padding: 0.7rem 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 textarea{
